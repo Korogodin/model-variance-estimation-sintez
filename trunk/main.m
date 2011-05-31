@@ -13,7 +13,7 @@ Nstdn = size(stdn_IQ,2); % Число рассматриваемых stdn_IQ
 
 init_arrays;
 phase = rand(1,Nmod)*2*pi;
-A_IQ_izm = A_IQ*1.2;
+A_IQ_izm = A_IQ*1.0;
 
 for nmod = 1:Nmod
     n_I = randn(1,Nstdn);

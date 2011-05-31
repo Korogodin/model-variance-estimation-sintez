@@ -2,7 +2,7 @@ globals;
 
 Tc = 0.001; % Correlation period
 
-Tmod = 1; % Время моделирования
+Tmod = 10; % Время моделирования
 
 qcno_dB = 27; % q c/no in dBHz
 
